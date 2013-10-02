@@ -10,6 +10,6 @@
 
 @interface QuadraticException : NSException
 
-@property(readwrite)NSInteger *delta;
+@property(readwrite)NSInteger delta;
 
 @end
