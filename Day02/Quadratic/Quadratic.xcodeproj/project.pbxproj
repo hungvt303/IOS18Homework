@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8C27C8A017FBCF2D009C8295 /* QuadraticException.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C27C89F17FBCF2D009C8295 /* QuadraticException.m */; };
 		8CA5FB0517FBCA1F00D62B9E /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8CA5FB0417FBCA1F00D62B9E /* UIKit.framework */; };
 		8CA5FB0717FBCA1F00D62B9E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8CA5FB0617FBCA1F00D62B9E /* Foundation.framework */; };
 		8CA5FB0917FBCA1F00D62B9E /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8CA5FB0817FBCA1F00D62B9E /* CoreGraphics.framework */; };
@@ -18,6 +19,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		8C27C89E17FBCF2D009C8295 /* QuadraticException.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QuadraticException.h; sourceTree = "<group>"; };
+		8C27C89F17FBCF2D009C8295 /* QuadraticException.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QuadraticException.m; sourceTree = "<group>"; };
 		8CA5FB0017FBCA1F00D62B9E /* Quadratic.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Quadratic.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8CA5FB0417FBCA1F00D62B9E /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		8CA5FB0617FBCA1F00D62B9E /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -83,6 +86,8 @@
 				8CA5FB1917FBCA1F00D62B9E /* ViewController.h */,
 				8CA5FB1A17FBCA1F00D62B9E /* ViewController.m */,
 				8CA5FB0B17FBCA1F00D62B9E /* Supporting Files */,
+				8C27C89E17FBCF2D009C8295 /* QuadraticException.h */,
+				8C27C89F17FBCF2D009C8295 /* QuadraticException.m */,
 			);
 			path = Quadratic;
 			sourceTree = "<group>";
@@ -164,6 +169,7 @@
 				8CA5FB1117FBCA1F00D62B9E /* main.m in Sources */,
 				8CA5FB1517FBCA1F00D62B9E /* AppDelegate.m in Sources */,
 				8CA5FB1B17FBCA1F00D62B9E /* ViewController.m in Sources */,
+				8C27C8A017FBCF2D009C8295 /* QuadraticException.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -273,6 +279,7 @@
 				8CA5FB2017FBCA1F00D62B9E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
