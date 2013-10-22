@@ -1,0 +1,305 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8CBB9A6B1816D0EE003E01E5 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8CBB9A6A1816D0EE003E01E5 /* UIKit.framework */; };
+		8CBB9A6D1816D0EF003E01E5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8CBB9A6C1816D0EE003E01E5 /* Foundation.framework */; };
+		8CBB9A6F1816D0EF003E01E5 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8CBB9A6E1816D0EF003E01E5 /* CoreGraphics.framework */; };
+		8CBB9A711816D0EF003E01E5 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8CBB9A701816D0EF003E01E5 /* CoreData.framework */; };
+		8CBB9A771816D0EF003E01E5 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 8CBB9A751816D0EF003E01E5 /* InfoPlist.strings */; };
+		8CBB9A791816D0EF003E01E5 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8CBB9A781816D0EF003E01E5 /* main.m */; };
+		8CBB9A7D1816D0F0003E01E5 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8CBB9A7C1816D0F0003E01E5 /* AppDelegate.m */; };
+		8CBB9A801816D0F2003E01E5 /* Day08Homework.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 8CBB9A7E1816D0F1003E01E5 /* Day08Homework.xcdatamodeld */; };
+		8CBB9A891816D24A003E01E5 /* FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8CBB9A871816D24A003E01E5 /* FirstViewController.m */; };
+		8CBB9A8A1816D24A003E01E5 /* FirstViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8CBB9A881816D24A003E01E5 /* FirstViewController.xib */; };
+		8CBB9A8E1816D99B003E01E5 /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8CBB9A8C1816D99B003E01E5 /* SecondViewController.m */; };
+		8CBB9A8F1816D99B003E01E5 /* SecondViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8CBB9A8D1816D99B003E01E5 /* SecondViewController.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		8CBB9A661816D0EE003E01E5 /* Day08Homework.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Day08Homework.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8CBB9A6A1816D0EE003E01E5 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		8CBB9A6C1816D0EE003E01E5 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		8CBB9A6E1816D0EF003E01E5 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		8CBB9A701816D0EF003E01E5 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		8CBB9A741816D0EF003E01E5 /* Day08Homework-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Day08Homework-Info.plist"; sourceTree = "<group>"; };
+		8CBB9A761816D0EF003E01E5 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		8CBB9A781816D0EF003E01E5 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		8CBB9A7A1816D0F0003E01E5 /* Day08Homework-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Day08Homework-Prefix.pch"; sourceTree = "<group>"; };
+		8CBB9A7B1816D0F0003E01E5 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		8CBB9A7C1816D0F0003E01E5 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		8CBB9A7F1816D0F2003E01E5 /* Day08Homework.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Day08Homework.xcdatamodel; sourceTree = "<group>"; };
+		8CBB9A861816D24A003E01E5 /* FirstViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FirstViewController.h; sourceTree = "<group>"; };
+		8CBB9A871816D24A003E01E5 /* FirstViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FirstViewController.m; sourceTree = "<group>"; };
+		8CBB9A881816D24A003E01E5 /* FirstViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = FirstViewController.xib; sourceTree = "<group>"; };
+		8CBB9A8B1816D99B003E01E5 /* SecondViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
+		8CBB9A8C1816D99B003E01E5 /* SecondViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
+		8CBB9A8D1816D99B003E01E5 /* SecondViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SecondViewController.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8CBB9A631816D0ED003E01E5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8CBB9A6B1816D0EE003E01E5 /* UIKit.framework in Frameworks */,
+				8CBB9A6D1816D0EF003E01E5 /* Foundation.framework in Frameworks */,
+				8CBB9A6F1816D0EF003E01E5 /* CoreGraphics.framework in Frameworks */,
+				8CBB9A711816D0EF003E01E5 /* CoreData.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8CBB9A5B1816D0E8003E01E5 = {
+			isa = PBXGroup;
+			children = (
+				8CBB9A721816D0EF003E01E5 /* Day08Homework */,
+				8CBB9A691816D0EE003E01E5 /* Frameworks */,
+				8CBB9A671816D0EE003E01E5 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		8CBB9A671816D0EE003E01E5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8CBB9A661816D0EE003E01E5 /* Day08Homework.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8CBB9A691816D0EE003E01E5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8CBB9A6A1816D0EE003E01E5 /* UIKit.framework */,
+				8CBB9A6C1816D0EE003E01E5 /* Foundation.framework */,
+				8CBB9A6E1816D0EF003E01E5 /* CoreGraphics.framework */,
+				8CBB9A701816D0EF003E01E5 /* CoreData.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		8CBB9A721816D0EF003E01E5 /* Day08Homework */ = {
+			isa = PBXGroup;
+			children = (
+				8CBB9A7B1816D0F0003E01E5 /* AppDelegate.h */,
+				8CBB9A7C1816D0F0003E01E5 /* AppDelegate.m */,
+				8CBB9A7E1816D0F1003E01E5 /* Day08Homework.xcdatamodeld */,
+				8CBB9A731816D0EF003E01E5 /* Supporting Files */,
+				8CBB9A861816D24A003E01E5 /* FirstViewController.h */,
+				8CBB9A871816D24A003E01E5 /* FirstViewController.m */,
+				8CBB9A881816D24A003E01E5 /* FirstViewController.xib */,
+				8CBB9A8B1816D99B003E01E5 /* SecondViewController.h */,
+				8CBB9A8C1816D99B003E01E5 /* SecondViewController.m */,
+				8CBB9A8D1816D99B003E01E5 /* SecondViewController.xib */,
+			);
+			path = Day08Homework;
+			sourceTree = "<group>";
+		};
+		8CBB9A731816D0EF003E01E5 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				8CBB9A741816D0EF003E01E5 /* Day08Homework-Info.plist */,
+				8CBB9A751816D0EF003E01E5 /* InfoPlist.strings */,
+				8CBB9A781816D0EF003E01E5 /* main.m */,
+				8CBB9A7A1816D0F0003E01E5 /* Day08Homework-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8CBB9A651816D0ED003E01E5 /* Day08Homework */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8CBB9A831816D0F3003E01E5 /* Build configuration list for PBXNativeTarget "Day08Homework" */;
+			buildPhases = (
+				8CBB9A621816D0ED003E01E5 /* Sources */,
+				8CBB9A631816D0ED003E01E5 /* Frameworks */,
+				8CBB9A641816D0ED003E01E5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Day08Homework;
+			productName = Day08Homework;
+			productReference = 8CBB9A661816D0EE003E01E5 /* Day08Homework.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8CBB9A5D1816D0E8003E01E5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+				ORGANIZATIONNAME = eLeisure;
+			};
+			buildConfigurationList = 8CBB9A601816D0E8003E01E5 /* Build configuration list for PBXProject "Day08Homework" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 8CBB9A5B1816D0E8003E01E5;
+			productRefGroup = 8CBB9A671816D0EE003E01E5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8CBB9A651816D0ED003E01E5 /* Day08Homework */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8CBB9A641816D0ED003E01E5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8CBB9A771816D0EF003E01E5 /* InfoPlist.strings in Resources */,
+				8CBB9A8A1816D24A003E01E5 /* FirstViewController.xib in Resources */,
+				8CBB9A8F1816D99B003E01E5 /* SecondViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8CBB9A621816D0ED003E01E5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8CBB9A791816D0EF003E01E5 /* main.m in Sources */,
+				8CBB9A7D1816D0F0003E01E5 /* AppDelegate.m in Sources */,
+				8CBB9A801816D0F2003E01E5 /* Day08Homework.xcdatamodeld in Sources */,
+				8CBB9A891816D24A003E01E5 /* FirstViewController.m in Sources */,
+				8CBB9A8E1816D99B003E01E5 /* SecondViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		8CBB9A751816D0EF003E01E5 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8CBB9A761816D0EF003E01E5 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		8CBB9A811816D0F2003E01E5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		8CBB9A821816D0F2003E01E5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8CBB9A841816D0F3003E01E5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Day08Homework/Day08Homework-Prefix.pch";
+				INFOPLIST_FILE = "Day08Homework/Day08Homework-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		8CBB9A851816D0F3003E01E5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Day08Homework/Day08Homework-Prefix.pch";
+				INFOPLIST_FILE = "Day08Homework/Day08Homework-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8CBB9A601816D0E8003E01E5 /* Build configuration list for PBXProject "Day08Homework" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8CBB9A811816D0F2003E01E5 /* Debug */,
+				8CBB9A821816D0F2003E01E5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8CBB9A831816D0F3003E01E5 /* Build configuration list for PBXNativeTarget "Day08Homework" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8CBB9A841816D0F3003E01E5 /* Debug */,
+				8CBB9A851816D0F3003E01E5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		8CBB9A7E1816D0F1003E01E5 /* Day08Homework.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				8CBB9A7F1816D0F2003E01E5 /* Day08Homework.xcdatamodel */,
+			);
+			currentVersion = 8CBB9A7F1816D0F2003E01E5 /* Day08Homework.xcdatamodel */;
+			path = Day08Homework.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 8CBB9A5D1816D0E8003E01E5 /* Project object */;
+}
