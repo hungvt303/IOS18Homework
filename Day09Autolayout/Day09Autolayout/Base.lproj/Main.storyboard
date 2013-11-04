@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="4510" systemVersion="12F37" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" initialViewController="vXZ-lx-hvc">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="3742"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="ufC-wZ-h7g">
+            <objects>
+                <viewController id="vXZ-lx-hvc" customClass="ViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="m43-yn-n1e"/>
+                        <viewControllerLayoutGuide type="bottom" id="kYE-Nd-7mJ"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="kh9-bI-dsS">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" ambiguous="YES" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Drj-QX-6jB">
+                                <rect key="frame" x="86" y="72" width="158" height="89"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                <color key="backgroundColor" red="0.81194913960019877" green="1" blue="0.21818178801877675" alpha="1" colorSpace="calibratedRGB"/>
+                            </view>
+                            <view contentMode="scaleToFill" ambiguous="YES" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="r19-Ci-spZ">
+                                <rect key="frame" x="86" y="211" width="158" height="89"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                <color key="backgroundColor" red="0.81194913960000004" green="1" blue="0.21818178799999999" alpha="1" colorSpace="calibratedRGB"/>
+                            </view>
+                            <view contentMode="scaleToFill" ambiguous="YES" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="CGt-yc-EMe">
+                                <rect key="frame" x="86" y="340" width="158" height="89"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                <color key="backgroundColor" red="0.81194913960000004" green="1" blue="0.21818178799999999" alpha="1" colorSpace="calibratedRGB"/>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="r19-Ci-spZ" firstAttribute="height" secondItem="CGt-yc-EMe" secondAttribute="height" id="CHc-X3-fYo"/>
+                            <constraint firstItem="r19-Ci-spZ" firstAttribute="width" secondItem="Drj-QX-6jB" secondAttribute="width" id="HBZ-yo-lyp"/>
+                            <constraint firstItem="Drj-QX-6jB" firstAttribute="top" secondItem="m43-yn-n1e" secondAttribute="bottom" constant="20" id="UDd-Zy-ll9"/>
+                            <constraint firstItem="r19-Ci-spZ" firstAttribute="width" secondItem="CGt-yc-EMe" secondAttribute="width" id="ZSM-mY-zee"/>
+                            <constraint firstItem="kYE-Nd-7mJ" firstAttribute="top" secondItem="CGt-yc-EMe" secondAttribute="bottom" constant="20" id="ZdG-vO-ZrQ"/>
+                            <constraint firstItem="r19-Ci-spZ" firstAttribute="height" secondItem="Drj-QX-6jB" secondAttribute="height" id="cI2-Ft-cGj"/>
+                            <constraint firstItem="Drj-QX-6jB" firstAttribute="leading" secondItem="kh9-bI-dsS" secondAttribute="leading" constant="20" id="dU8-FL-wRF"/>
+                            <constraint firstAttribute="trailing" secondItem="CGt-yc-EMe" secondAttribute="trailing" constant="20" id="eYG-CQ-fKS"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="objOne" destination="Drj-QX-6jB" id="LaS-3v-JTS"/>
+                        <outlet property="objThree" destination="CGt-yc-EMe" id="61d-en-lkp"/>
+                        <outlet property="objTwo" destination="r19-Ci-spZ" id="TO2-et-Fjj"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="x5A-6p-PRh" sceneMemberID="firstResponder"/>
+            </objects>
+        </scene>
+    </scenes>
+    <simulatedMetricsContainer key="defaultSimulatedMetrics">
+        <simulatedStatusBarMetrics key="statusBar"/>
+        <simulatedOrientationMetrics key="orientation"/>
+        <simulatedScreenMetrics key="destination" type="retina4"/>
+    </simulatedMetricsContainer>
+</document>
